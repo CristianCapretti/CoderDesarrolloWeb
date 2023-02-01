@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color:#674EA7;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+    
+}
+.listadeReproduccion{
+    background-color: #674EA7;
+    margin-top: 1%;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span{
+    color:black;
+}
+.barra{
+    float:right;
+    margin-right: 50px;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.barra a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: medium;
+}
+.contenedor{
+
+  justify-content: left;
+  background-color: #e4e3e4;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+   
+
+}
+.buscar{
+    background-color: #351c7558;
+    align-items: center;
+}
+.buscar a{
+    margin-left: 10%;
+    border-radius: 100%;
+}
+.buscar i{
+    background-color: #351C75;
+}
+
+main{
+    height: 100vh; /* vh la pantalla completa tambeien podes haces calc(100vh-80px que es el header)*/
+    width: 100%;
+    background-image: url(../img/music-7238254.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+img{
+
+    border-radius: 50%;
+}
+.call{
+    color: #fff;
+    width: 50%;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: inline-end;
+    margin: auto;
+
+}
+.formulario{
+    margin: 8% 35%;
+    height: 350px;
+    width: 400px;
+    border: 4px solid #351C75;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.carrousellista
+{
+    height: 100px !important;
+}
+
+
+button{
+    background-color: #351C75;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width: 110px;
+    border-color: black;
+
+}
+
+button:hover{
+    background-color: #351c7560;
+    border: 2px solid black; 
+}
+.barra button{
+    width: auto;
+}
+.call h1{
+    color: White;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:50px;
+    margin-top: 115px;
+    text-align: left;
+}
+.call p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    font-size: 14px;
+    
+}
+
+.call button{
+
+    height: 40px;
+    width: 150px;
+    margin-left: 33%;
+     
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin-left: 18%;
+    margin-top: 15px;
+    
+}
+a input{
+    height: 30px;
+    width: 250px;
+    margin-left: 28%;
+    margin-right: 0%;
+    margin-top: 0px;
+
+}
+
+.formulario h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #351C75;
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 18%;
+    height: 30px;
+    width: 250px;
+
+}
+.fb{
+    background-color: #3578e5;
+}
+.google{
+    
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: #7952b3;
+    color: white;
+    margin-top: 2%;
+
+}
+footer i{
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+.Artistas{
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left:0%;
+}
+.Artistas img{
+    height: 50%;
+    margin-left: 20%;
+   
+}
+ .Artistas p{
+    margin-top: 10%;
+    margin-left: 32%;
+    width: 90%;
+    font-size: small;
+    font-weight: bold;
+    
+}
+.tracksnuevos{
+    height: 50%;
+    margin-bottom: 10%;
+}
+.Artistas button{
+    margin-left: 30%;
+}
+.TracksNuevosimg{
+    height: 90px;
+}
+.parrafo{
+    margin: 0%;
+    width: 100%;
+}
+.parrafo p{
+    margin: 0%;
+}
+.TracksNuevosimg img{
+    height: 70%;
+    width: 90%;
+    margin: 0%;
+}
+.TracksNuevosaudio{
+    height: 50%;
+    width: 90%;
+    margin: 0%;
+}
+.TracksNuevosaudio audio{
+    height: 50%
+}
+.TracksNuevosaudio p{
+    width: 100%;
+    height: 20%;
+}
+.Seguir
+{
+    width: 50%;
+    margin-left: 25%;
+}
+ h3
+{   margin: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.reproductor{
+    height: 350px;
+    width: 350px;
+    border: 1px solid #351c75ac; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0%;
+}
+.reproductor img{
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 50%;
+    height: 35%;
+}
+.reproductor p{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 35%;
+    font-size: small;
+    font-weight: bold;
+}
+audio{
+    
+   width: 80%;
+   margin-left: 10%;
+
+}
+audio::-webkit-media-controls-panel {
+    background-color:#351c7591;
+  }
+  audio::-webkit-media-controls-play-button {
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }
+  
+  .ListaReproduccion{
+
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  .card{
+    background-color: #351c7558;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
+  .cancion{
+    margin-top: 1%;
+
+  }
+  .cancion audio{
+    width: 90%;
+    height: 50%;
+    margin: 0%;
+    margin-bottom: 5%;
+  }
+ 
+
+  .division1{
+    justify-content:flex-start;
+
+    display: flex;
+    flex-direction: row;
+    height: 33.3%;
+    padding: 0%;
+
+  
+  }
+  .TracksNuevosImg{
+    height: 100%;
+  }
+ 
+.TracksNuevosImg img
+{
+    height: 50%;
+}
+  
+  
+.audioT{
+
+    margin-bottom: 2%;
+
+}
+
+  .divion1 .audioT{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+  }
+  .audioT p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+ .ordenar{
+    display:flex;
+    flex-direction: row;
+    margin: 5%;
+  
+ }
+ .ordenar .Artistas{
+    margin-left: 0%;
+
+
+ }
+ .ordenar .Artistas button{
+    width: 100%;
+ }
+ .ordenar .Artistas p{
+    font-size: smaller;
+    width: 100%;
+    margin: 0;
+ }
+ .megusta img{
+    margin:10%;
+    height: 20% !important;
+   
+  }
+  .ultimosMg{
+    height:560px ;
+    
+  }
+  .parrafo p{
+    margin: 0%;
+}
+.biblioteca{
+    border: none;
+    box-shadow: none;
+}
+.informacion{
+    margin-top: 4%;
+    
+}
+.informacion h5{
+    color: black;
+}
+.informacion img{
+    height: 70%;
+}
