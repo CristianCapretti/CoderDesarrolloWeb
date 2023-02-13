@@ -5,7 +5,16 @@
     padding: 0;
 }
 
+.navbar{
+    background-color:#7952b3;
+   box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(255 255 255 / 15%);
+  
 
+}
+.form-inline{
+    flex-flow: nowrap;
+    margin-left: 40%;
+}
 header{
     height: 70px;
     width: 100%;
@@ -19,6 +28,7 @@ header{
 .listadeReproduccion{
     background-color: #674EA7;
     margin-top: 1%;
+    
 }
 .logo{
     float: left;
@@ -31,13 +41,16 @@ header{
 }
 .barra{
     float:right;
-    margin-right: 50px;
+    margin-right: 10px;
 }
-
+.centrar{
+    align-items: center;
+}
 .barra ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-top:10px ;
 
 }
 .barra a{
@@ -264,6 +277,7 @@ footer i{
     border: 1px solid #351c75ac; 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 0%;
+    
 }
 .reproductor img{
     margin-top: 10%;
@@ -285,10 +299,12 @@ audio{
 
 }
 audio::-webkit-media-controls-panel {
-    background-color:#351c7591;
+    background-color:rgba(255, 255, 255, 0.703); /*4e5dbf6a */
+    border-color: rgba(0, 0, 0, 0.532);
+   
   }
   audio::-webkit-media-controls-play-button {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.638);
     border-radius: 50%;
   }
   
@@ -305,9 +321,8 @@ audio::-webkit-media-controls-panel {
 
   }
   .card{
-    background-color: #351c7558;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
+    background-color:#754ab517;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.121);
   }
   .cancion{
     margin-top: 1%;
@@ -402,3 +417,18 @@ audio::-webkit-media-controls-panel {
 .informacion img{
     height: 70%;
 }
+.btnSearch{
+    height: 40px;
+    margin-top: 8% !important;
+}
+.btnSearchMenu{
+    height: 40px;
+    margin-top: 5% !important;
+}
+.colorMenu{
+    color: white;
+}
+
+.nav-link:hover {
+    color: black !important;
+    }
