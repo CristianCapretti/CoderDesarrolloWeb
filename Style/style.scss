@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 $colorPrincipal:#7952b3;
-$colorPrincipal2:#7952b3;
+$colorReproductor:rgba(255, 255, 255, 0.703);
+$colorCards:#754ab517;
 *{
     box-sizing: border-box; 
     margin: 0;
@@ -301,7 +302,7 @@ audio{
 
 }
 audio::-webkit-media-controls-panel {
-    background-color:rgba(255, 255, 255, 0.703); /*4e5dbf6a */
+    background-color:$colorReproductor; /*4e5dbf6a */
     border-color: rgba(0, 0, 0, 0.532);
    
   }
@@ -323,7 +324,7 @@ audio::-webkit-media-controls-panel {
 
   }
   .card{
-    background-color:#754ab517;
+    background-color:$colorCards;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.121);
   }
   .cancion{
