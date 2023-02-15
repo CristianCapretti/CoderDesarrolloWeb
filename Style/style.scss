@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Futura');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+/*colores*/
 $colorPrincipal:#7952b3;
 $colorReproductor:rgba(255, 255, 255, 0.703);
 $colorCards:#754ab517;
+
+/*Fuentes*/
+$LetraTitulos:"Avenir", sans-serif;/*'Playfair Display', serif;*/
+$LetraTexto: 'Futura', sans-serif;
+
+
+
 *{
     box-sizing: border-box; 
     margin: 0;
@@ -11,7 +22,7 @@ $colorCards:#754ab517;
 .navbar{
     background-color:#7952b3;
    box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(255 255 255 / 15%);
-  
+   font-family: $LetraTitulos !important;
 
 }
 .form-inline{
@@ -23,10 +34,15 @@ header{
     width: 100%;
     background-color:#674EA7;
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:$LetraTitulos; /*Verdana, Geneva, Tahoma, sans-serif;*/
     text-transform: capitalize;
     padding: 20px;
     
+}
+h2{
+    font-family: $LetraTitulos !important;
+    font-weight: bold;
+
 }
 .listadeReproduccion{
     background-color: #674EA7;
@@ -98,7 +114,7 @@ img{
     color: #fff;
     width: 50%;
     padding: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     float: inline-end;
     margin: auto;
 
@@ -123,7 +139,7 @@ button{
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $LetraTexto;
     height: 30px;
     width: 110px;
     border-color: black;
@@ -140,16 +156,16 @@ button:hover{
 .call h1{
     color: White;
     text-transform: capitalize;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $LetraTitulos;
     margin-left:50px;
     margin-top: 115px;
     text-align: left;
 }
 .call p{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $LetraTexto;
     margin: 30px;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 
@@ -179,7 +195,7 @@ a input{
 .formulario h1{
     text-align: center;
     margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $LetraTitulos;
     color: #351C75;
 }
 .btn{
@@ -270,10 +286,14 @@ footer i{
 }
  h3
 {   margin: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $LetraTitulos;
+    font-weight: bold;
     font-size: medium;
 }
-
+h5{
+    font-family: $LetraTitulos;
+    font-weight: bold;
+}
 .reproductor{
     height: 350px;
     width: 350px;
@@ -405,6 +425,7 @@ audio::-webkit-media-controls-panel {
   }
   .parrafo p{
     margin: 0%;
+    font-family: $LetraTexto;
 }
 .biblioteca{
     border: none;
@@ -430,8 +451,18 @@ audio::-webkit-media-controls-panel {
 }
 .colorMenu{
     color: white;
+    font-family: $LetraTexto;
 }
 
 .nav-link:hover {
     color: black !important;
     }
+.card-title{
+    font-family: $LetraTitulos !important;
+} 
+.card-text{
+    font-family: $LetraTexto !important;
+}
+p{
+    font-family: $LetraTexto; 
+}
