@@ -21,9 +21,9 @@ $LetraTexto: 'Futura', sans-serif;
 
 .navbar{
     background-color:#7952b3;
-   box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(255 255 255 / 15%);
-   font-family: $LetraTitulos !important;
-
+    box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(255 255 255 / 15%);
+    font-family: $LetraTitulos !important;
+    height: 60px;
 }
 .form-inline{
     flex-flow: nowrap;
@@ -180,7 +180,6 @@ input{
     height: 30px;
     width: 250px;
     margin-left: 18%;
-    margin-top: 15px;
     
 }
 a input{
@@ -441,14 +440,7 @@ audio::-webkit-media-controls-panel {
 .informacion img{
     height: 70%;
 }
-.btnSearch{
-    height: 40px;
-    margin-top: 8% !important;
-}
-.btnSearchMenu{
-    height: 40px;
-    margin-top: 5% !important;
-}
+
 .colorMenu{
     color: white;
     font-family: $LetraTexto;
@@ -465,4 +457,8 @@ audio::-webkit-media-controls-panel {
 }
 p{
     font-family: $LetraTexto; 
+}
+
+.btnSearchMenu{
+    height: 39px;
 }
