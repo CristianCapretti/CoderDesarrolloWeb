@@ -6,6 +6,7 @@
 $colorPrincipal:#7952b3;
 $colorReproductor:rgba(255, 255, 255, 0.703);
 $colorCards:#754ab517;
+$colorVerificadoYBtn:#351C75;
 
 /*Fuentes*/
 $LetraTitulos:"Avenir", sans-serif;/*'Playfair Display', serif;*/
@@ -39,9 +40,13 @@ header{
     padding: 20px;
     
 }
+h1 {
+    padding: 1%;
+}
 h2{
     font-family: $LetraTitulos !important;
     font-weight: bold;
+    padding: 2%;
 
 }
 .listadeReproduccion{
@@ -284,7 +289,7 @@ footer i{
     margin-left: 25%;
 }
  h3
-{   margin: 35px;
+{   margin: 39px;
     font-family: $LetraTitulos;
     font-weight: bold;
     font-size: medium;
@@ -297,7 +302,6 @@ h5{
 .reproductor{
     height: 350px;
     width: 350px;
-    border: 1px solid #351c75ac; 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 0%;
     
@@ -462,4 +466,7 @@ p{
 
 .btnSearchMenu{
     height: 39px;
+}
+.Verificado{
+    color: $colorVerificadoYBtn;
 }
