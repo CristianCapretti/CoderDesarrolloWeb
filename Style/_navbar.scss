@@ -1,0 +1,80 @@
+@import "_variables";
+
+.navbar{
+    background-color:$colorPrincipal;
+    box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(255 255 255 / 15%);
+    font-family: $LetraTitulos !important;
+
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color:$colorPrincipal;
+    font-size: 22px;
+    font-family:$LetraTitulos; /*Verdana, Geneva, Tahoma, sans-serif;*/
+    text-transform: capitalize;
+    padding: 20px;
+    
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    color: #fff;
+}
+.logo span{
+    color:black;
+}
+.colorMenu{
+    color: white;
+    font-family: $LetraTexto;
+}
+
+.barra{
+    float:right;
+    margin-right: 10px;
+}
+
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0px;
+    margin-top:10px ;
+
+}
+.barra a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: medium;
+}
+
+
+.buscar{
+    background-color: #351c7558;
+    align-items: center;
+}
+.buscar a{
+    margin-left: 10%;
+    border-radius: 100%;
+}
+.buscar i{
+    background-color: #351C75;
+}
+
+.barra button{
+    width: auto;
+}
+.nav-link:hover {
+    color: black !important;
+    }
+
+.btnSearchMenu{
+    height: 39px;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-collapse
+{
+    background-color: $colorPrincipal !important;
+}

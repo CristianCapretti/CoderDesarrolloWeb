@@ -1,0 +1,18 @@
+@mixin enlace-hover-negro {
+    a :hover{
+      
+        color: black;
+      }
+    
+  }
+  
+  @mixin gradiente{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,82,179,1) 0%, rgba(188,189,223,0.7973783263305322) 100%);
+  }
+
+  @mixin config{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+  }
