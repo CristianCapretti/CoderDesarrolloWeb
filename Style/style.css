@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Futura");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 /*colores*/
+/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 /*Fuentes*/
 /*'Playfair Display', serif;*/
 * {
@@ -24,7 +25,7 @@
 header {
   height: 70px;
   width: 100%;
-  background-color: #674EA7;
+  background-color: #7952b3;
   font-size: 22px;
   font-family: "Avenir", sans-serif; /*Verdana, Geneva, Tahoma, sans-serif;*/
   text-transform: capitalize;
@@ -84,6 +85,14 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
+}
+
+a {
+  color: white;
+}
+
+a :hover {
+  color: black;
 }
 
 .buscar {
@@ -254,10 +263,6 @@ footer i {
   margin-left: 30%;
 }
 
-.TracksNuevosimg {
-  height: 90px;
-}
-
 .parrafo {
   margin: 0%;
   width: 100%;
@@ -274,9 +279,9 @@ footer i {
 }
 
 .TracksNuevosaudio {
-  height: 50%;
   width: 90%;
   margin: 0%;
+  padding: 3%;
 }
 
 .TracksNuevosaudio audio {
@@ -308,7 +313,6 @@ h5 {
 .reproductor {
   height: 350px;
   width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0%;
 }
 
@@ -327,7 +331,7 @@ h5 {
   font-weight: bold;
 }
 
-audio {
+.audioUM {
   width: 80%;
   margin-left: 10%;
 }

@@ -7,7 +7,7 @@ $colorPrincipal:#7952b3;
 $colorReproductor:rgba(255, 255, 255, 0.703);
 $colorCards:#754ab517;
 $colorVerificadoYBtn:#351C75;
-
+/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 
 /*Fuentes*/
 $LetraTitulos:"Avenir", sans-serif;/*'Playfair Display', serif;*/
@@ -34,7 +34,7 @@ $LetraTexto: 'Futura', sans-serif;
 header{
     height: 70px;
     width: 100%;
-    background-color:#674EA7;
+    background-color:$colorPrincipal;
     font-size: 22px;
     font-family:$LetraTitulos; /*Verdana, Geneva, Tahoma, sans-serif;*/
     text-transform: capitalize;
@@ -92,6 +92,12 @@ h2{
   flex-direction: row;
    
 
+}
+a{
+    color: white;
+}
+a :hover{
+    color: black;
 }
 .buscar{
     background-color: #351c7558;
@@ -257,9 +263,6 @@ footer i{
 .Artistas button{
     margin-left: 30%;
 }
-.TracksNuevosimg{
-    height: 90px;
-}
 .parrafo{
     margin: 0%;
     width: 100%;
@@ -273,9 +276,10 @@ footer i{
     margin: 0%;
 }
 .TracksNuevosaudio{
-    height: 50%;
+
     width: 90%;
     margin: 0%;
+    padding: 3%;
 }
 .TracksNuevosaudio audio{
     height: 50%
@@ -303,7 +307,7 @@ h5{
 .reproductor{
     height: 350px;
     width: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
     margin: 0%;
     
 }
@@ -320,7 +324,7 @@ h5{
     font-size: small;
     font-weight: bold;
 }
-audio{
+.audioUM{
     
    width: 80%;
    margin-left: 10%;
